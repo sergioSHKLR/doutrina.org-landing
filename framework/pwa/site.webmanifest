@@ -1,0 +1,81 @@
+{
+  "id": "/",
+  "scope": "https://pt.doutrina.org/",
+  "name": "doutrina",
+  "display": "fullscreen",
+  "start_url": "https://pt.doutrina.org/",
+  "short_name": "doutrina",
+  "theme_color": "#4ec1f5",
+  "description": "Uma plataforma inédita de estudos integrados; permitindo anotações, e a consulta de referências externas, sem sair da janela original.",
+  "orientation": "any",
+  "background_color": "#222222",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "display_override": [
+    "window-controls-overlay",
+    "fullscreen"
+  ],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "iarc_rating_id": "",
+  "share_target": {
+    "action": "/handle-shared-content/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "doutrina.org",
+      "url": "https://pt.doutrina.org"
+    }
+  },
+  "scope_extensions": [
+    {
+      "origin": "pt.doutrina.org/*"
+    }
+  ],
+  "icons": [
+    {
+      "src": "maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "desktop.png",
+      "sizes": "2560x1440",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "tablet.png",
+      "sizes": "1274x1313",
+      "type": "image/png"
+    },
+    {
+      "src": "mobile.png",
+      "sizes": "638x1313",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+
+  ],
+  "features": [
+    "cross platform",
+    "rápido",
+    "simples"
+  ],
+  "categories": [
+    "education"
+  ]
+}
